@@ -1,0 +1,6 @@
+n = str(input('String '))
+i = int(input('Number '))
+f = float(input('Float '))
+print(type(n))
+print(type(i))
+print(type(f))
