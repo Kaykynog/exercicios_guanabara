@@ -1,0 +1,5 @@
+nome = str(input('Digite un nome: ')).strip()
+print(nome)
+separador = nome.split()
+print(separador[0])
+print(separador[len(separador)-1])
