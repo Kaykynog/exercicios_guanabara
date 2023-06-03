@@ -4,7 +4,7 @@ num1 = int(input('Digite o primeira reta: '))
 num2 = int(input('Segunda reta: '))
 num3 = int(input('Terceira reta: '))
 
-if num1 > num2+num3:
+if num1 < num2+num3:
     print('Sim, é um triangulo')
 
     
