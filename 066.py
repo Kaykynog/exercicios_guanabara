@@ -7,4 +7,4 @@ while n != 999:
     soma = soma + n
     contador += 1
 
-print(f'voce digitou {contador} numeros e soma entre eles é {soma - 999}')
+print(f'voce digitou {contador-1} numeros e soma entre eles é {soma - 999}')

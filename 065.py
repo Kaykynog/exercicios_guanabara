@@ -1,11 +1,15 @@
 # Sequencia de Fibonacci
 
-n = int(input('Digite um numero e obtenha sua sequencia de fibonacci: '))
-s = 0
-f = 0
-while True:
-    for c in range(0, n):
-        s = s + n
-        
-
-    break
+n = int(input('Quantos termos você que mostrar? '))
+t1 = 0 
+t2 = 1
+contador = 3
+print(t1)
+print(t2)
+while contador <= n:
+    t3 = t1 + t2 
+    print(t3)
+    t1 = t2
+    t2 = t3
+    contador += 1
+    
