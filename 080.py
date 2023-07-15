@@ -4,7 +4,18 @@
 # mostre a lista ordenada na tela.
 
 lista = []
-while True:
-    item = input('Adicione um numero a sua lista: ')
-    if item == item.index(1):
-        item.insert(1)
+
+for l in range(0,5):
+    item = int(input('Digite um numero: '))
+    if l == 0 or item > lista[len(lista)-1]:
+        lista.append(item)
+        print('Adicionando ao final da lista...')
+    else:
+        posicao = 0
+        while posicao < len(lista):
+            if item <= lista[posicao]:
+                lista.insert(posicao, item)
+                print(f'Adicionando na posição:{posicao}...')
+                break
+            posicao += 1
+print(lista)
