@@ -16,6 +16,11 @@
 # lstrip - remove os espaços inuteis(somente na esquerda)
 # split - divide a string por palavras (caractere de split - splitador)
 # join - junta todos elementos da frase (substitui os espaços por algo especificador '-')
+# append - adiciona um item na lista (no final)
+# insert adiciona um item na lista (onde for indicado [] nos colchetes)
+# del - apaga um elemento - []
+# pop - apaga um elemento - [] - geralmente o ultimo
+# remove - remove o elemento em especifico
 
 frase = 'curso em video python'
 print(len(frase))
