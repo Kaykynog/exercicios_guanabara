@@ -1,3 +1,6 @@
+# Peça um numero ao usuario e retorne:
+# A unidade, dezena, centena e milhar do numero
+
 numero = input('numero: ')
 
 print(f'unidade: {numero[3:4]}')
