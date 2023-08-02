@@ -17,4 +17,6 @@
 # print(dados[1])
 
 pessoas = {'nome': 'kayky', 'sexo': 'm', 'idade': 22}
-print(f'{pessoas.items()}')
+print(f'{pessoas.keys()}') # Mostra as chaves do dicionario
+print(f'{pessoas.values()}')# Mostra os valores das chaves do dicionario
+print(f'{pessoas.items()}') # Mostra a chave e o valor
